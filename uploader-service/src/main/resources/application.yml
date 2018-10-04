@@ -1,0 +1,17 @@
+market:
+  raw-data: file:/C:/Users/kpaulpa/Documents/workArea/personalProject/eforecast/data/raw-data
+  processed-data: file:/C:/Users/kpaulpa/Documents/workArea/personalProject/eforecast/data/processed-data
+
+spring:
+  h2:
+    console:
+      enabled: true
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: eforecast
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: ERROR
+
